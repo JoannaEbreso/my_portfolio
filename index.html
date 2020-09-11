@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Joanna Portfolio</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+<style>
+    label{
+        color:#17A2B8;
+    }
+</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3">
+    <div class="container">
+        <a href="#" class="navbar-brand mr-3">Joanna Ebreso</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="#" class="nav-item nav-link active">Home</a>
+                <a href="#" class="nav-item nav-link">Services</a>
+                <a href="#aboutmeSection" class="nav-item nav-link">About</a>
+                <a href="#contactmesection" class="nav-item nav-link">Contact</a>
+            </div>
+            <!-- <div class="navbar-nav ml-auto">
+                <a href="#" class="nav-item nav-link">Register</a>
+                <a href="#" class="nav-item nav-link">Login</a>
+            </div> -->
+        </div>
+    </div>    
+</nav>
+<div class="container" id="welcomeSection">
+    <div class="jumbotron">
+        <div class="overlayer"></div>
+        <div class="overlayerelements flex-jumbotron">
+            <div class="jumbotronimg">
+                <img src="img/Joannapics.jpg" alt="Joanna">
+            </div>
+            <div class="jumbotrontxt">
+                <h1>Hi! I'm Joanna Ebreso</h1>
+                <p class="lead"><b>I'm a Software Engineer.
+                                    Welcome to my Portfolio!
+                </b></p>
+                <p><a href="#aboutmeSection" target="_blank" class="btn btn-success btn-lg">Get to know me better!</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="card" style="width: 300px;">
+        <img src="img/digitization.jpg" class="card-img-top" alt="an image">
+        <div class="card-body text-center">
+            <h5 class="card-title">Front End</h5>
+            <p class="card-text">Joanna is a freelance web designer and developer based in London. She is specialised in HTML5
+                , CSS3, JavaScript, Bootstrap, etc.
+            </p>
+            <a href="#" class="btn btn-primary">View Profile</a>
+        </div>
+
+    </div> -->
+    <div class="work-div">
+        <p>SERVICES: </p>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div><img src="img/hcj.png" width="100px" height="80px"></div>
+            
+            <h4>FRONT END</h4>
+            <p>I design/develop web applications using HTML, CSS and JavaScript</p>
+            <p><a href="projects.html#frontend" target="_blank" class="btn btn-project">Front End Projects »</a></p>
+        </div>
+        <div class="col-md-4">
+            <div class="flexelements flex-no-space-between">
+                <img src="img/java.png" width="100px" height="80px">
+                <img src="img/python.jpg" width="100px" height="80px">
+            </div>
+            <h4>BACK END</h4>
+            <p>I develop efficient software with Java and Python as my backend languages</p>
+            <p><a href="projects.html#backend" target="_blank" class="btn btn-project">Back End Projects »</a></p>
+        </div>
+        <div class="col-md-4">
+            <div class="flexelements">
+                <img src="img/DA1.png" width="100px" height="80px">
+            </div>
+            <h4>DATA ANALYSIS</h4>
+            <p>I carry out thorough analysis on data using Jupyter Notebook</p>
+            <p><a href="projects.html#dataAnalysis" target="_blank" class="btn btn-project">Data Analysis Projects »</a></p>
+        </div>
+    </div>
+
+    <hr>
+    <div id="aboutmeSection">
+        <div class="aboutMe">
+            <img src="img/aboutme.png">
+            <!-- <h1>More about me</h1> -->
+            <div class="ptext">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Facere impedit ea nemo quasi eum quidem repellendus s
+                aepe autem asperiores dolorem sit rem perferendis vitae, 
+                earum illo! Cupiditate accusamus dignissimos nemo.</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Facere impedit ea nemo quasi eum quidem repellendus s
+                    aepe autem asperiores dolorem sit rem perferendis vitae, 
+                    earum illo! Cupiditate accusamus dignissimos nemo.</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Facere impedit ea nemo quasi eum quidem repellendus s
+                    aepe autem asperiores dolorem sit rem perferendis vitae, 
+                    earum illo! Cupiditate accusamus dignissimos nemo.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <div id="contactmesection" class="contactme">
+        <div class="contactmeone">
+            <h3>Talk to me here!</h3>
+            <form>
+                <div class="form-inline">
+                    <label>Your Name:</label><br>
+                    <input type="text" placeholder="Enter your name"><br><br>
+                    <label>Email:</label><br>
+                    <input type="email" placeholder="Enter your email address"><br><br>
+                    <label>Phone Number:</label><br>
+                    <input type="number" placeholder="Enter your phone number"><br><br>
+                </div>
+
+                <div>
+                    <textarea placeholder="Leave your message here"></textarea>
+                </div>
+
+                <div>
+                    <button type="submit" class="btn btn-light">Submit</button>
+                </div>  
+
+            </form>
+        </div>
+        
+        <div class="contactmetwo">
+            <h5>You can also find me on: </h5>
+            <a href="#"><img src="img/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="img/linkedin.png" alt="LinkedIn"></a>
+            <a href="#"><img src="img/instagram.jpg" alt="Instagram"></a>
+        </div>
+    </div>
+
+
+    <hr>
+    <footer>
+        <div class="row">
+            <div class="col-md-6">
+                <p>Copyright &copy; 2020 JoannaEbreso</p>
+            </div>
+            <div class="col-md-6 text-md-right">
+                <a href="#" class="text-dark">Terms of Use</a> 
+                <span class="text-muted mx-2">|</span> 
+                <a href="#" class="text-dark">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+
+<!-- we used .mb-3, .ml-auto, mx-2 etc to adjust spacing between the elements. (margin-utilty)
+    and  classes .text-dark, .text-muted, .text-md-right are text (text-utility)
+    utility classes to adjust color and alignment of text
+-->
+</html>

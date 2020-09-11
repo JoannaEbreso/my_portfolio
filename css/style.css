@@ -1,0 +1,206 @@
+
+.jumbotron{
+   background-image: url(../img/blockchain.jpg);
+   /* background-size: contain; */
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 70% 50%;
+   position: relative;
+   height: 350px;
+   margin-bottom: 0rem;
+}
+
+.jumbotronimg{
+    /* float: left; */
+    /* width: 100%; */
+    width: 20%;
+    margin-left: 90px;
+    /* height: 200px; */
+}
+.flex-jumbotron{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.overlayerelements{
+    width: 100%;
+    height: 100%;
+    top: 43px;
+    left: 0;  
+    position: absolute;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    z-index: 2;
+}
+.overlayer{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.jumbotrontxt{
+    color: whitesmoke;
+    width: 730px;
+    margin-top: 25px;
+}
+
+.jumbotronimg > img{
+    border: 5px solid white; 
+    border-radius: 50%;
+    width: auto;
+    height: 206px;
+}
+
+.work-div > p {
+    font-size: 24px;
+    font-weight: bolder;  
+    margin-top: 10px;
+}
+
+/* .card-img, .card-img-top{
+    border-bottom-left-radius: calc(.15rem - 1px);
+    border-bottom-right-radius: calc(.15rem - 1px);
+} */
+
+.btn-project {
+    color:#ADEFD1FF;
+    background-color:#00203FFF;
+    border-color:#17A2B8;
+}
+
+
+.flexelements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex-no-space-between{
+    justify-content: unset;
+}
+
+/* .flexelements > img{
+    mix-blend-mode: multiply;
+} */
+
+.aboutMe{
+    background-color:#00203FFF;
+    width: 100%;
+    height: 600px;
+    padding-top: 8px;
+    margin-top: 20px;
+}
+
+.aboutMe > img {
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    /* text-align: center;  */
+    margin-top: 20px;
+    border-top: 3px solid #ADEFD1FF;
+    border-right: 3px solid #ADEFD1FF;
+}
+
+.ptext{
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: black;
+    width: 70%;
+    height: 69.2%;
+    margin-left: 160px;
+    padding: 20px;
+    border-right: 3px solid #ADEFD1FF;
+    border-left: 3px solid #ADEFD1FF;
+}
+
+.contactme{
+    width:100%;
+    height: 500px;
+}
+
+.contactmeone > h3{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: -72px;
+    color:#17A2B8 ;
+}
+
+.contactmeone > form{
+
+    margin-left: 140px;
+}
+
+.contactmeone > form label,
+.contactmeone > form input{
+    margin-right: 10px;
+}
+
+.contactmeone > form label{
+    font-size:12px;
+}
+.contactmeone > form input
+{
+    border: 1px solid #17A2B8;
+    width: 300px;
+}
+
+.contactmeone > form textarea
+{
+ margin-left:209px;
+ margin-top: 20px;
+ width: 360px;
+    height: 152px;
+    border: 1px solid #17A2B8;
+    border-radius: 10px;
+}
+
+.contactmeone > form button{
+ margin-left:320px;
+ margin-top: 20px;
+}
+
+hr{
+    border: 3px solid gray; 
+}
+
+.work-div{
+    margin-top: 0px;
+}
+
+.btn-light{
+    border: 1px solid #17A2B8;
+    color:#17A2B8;
+    font-weight: normal;
+    width: 150px;
+}
+
+.form-inline{
+    margin-left: -166px;
+}
+
+.contactmetwo{
+    margin-top: 50px;
+}
+
+.contactmetwo h5{
+    color: #17A2B8;
+    margin-bottom: 20px;
+}
+
+.contactmetwo > a img{
+    margin-right: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+footer{
+    background-color: #00203FFF;
+    color: white;
+}
